@@ -1,0 +1,75 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+
+body{
+  background-image: url("../images/background.jpg");
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 2px #0B60B0;
+}
+
+.sign_card{
+  width: 350px;
+  height: 400px;
+
+  border: 1px solid white;
+  border-radius: 7px;
+
+  margin: 20px auto;
+}
+
+h1{
+  font-size: 30px;
+}
+
+input{
+  width: 200px;
+  height: 40px;
+
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+button{
+  width: 150px;
+  height: 50px;
+
+  background-color: black;
+  color: white;
+
+  font-size: 150%;
+
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+button:hover{
+background-color: none;
+transform: scale(1.1);
+
+}
+
+hr{
+  color: white;
+  width: 80%;
+}
+
+.links{
+  font-size: 30px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+a:hover{
+  text-shadow: 2px 2px 2px  #0B60B0;
+  transform: scale(1.1);
+}
+
+a span{
+  text-decoration: underline;
+}

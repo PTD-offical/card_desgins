@@ -1,0 +1,73 @@
+body{
+  background-image: url("../images/background.jpg");
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 2px #0B60B0;
+}
+
+
+.login{
+  border:1px solid white;
+  border-radius: 7px;
+
+  width: 350px;
+  height:400px;
+  margin: 20px auto;
+}
+
+.login h1{
+font-size: 30px;
+}
+
+.login p{
+  font-size: 20px
+}
+
+input{
+  width: 200px;
+  height: 40px;
+
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+input label{
+  font-size: bolder;
+}
+
+.login button{
+  width: 150px;
+  height: 50px;
+
+  border: 1px solid white ;
+  border-radius: 30px;
+
+  color: white;
+  font-size: 150%;
+
+  background-color: black;
+}
+
+
+button:hover{
+background-color: none;
+transform: scale(1.1);
+
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+  text-shadow: none;
+}
+
+a:hover{
+text-shadow: 2px 2px 2px  #0B60B0;
+}
+
+
+a span{
+text-decoration: underline;
+}
