@@ -1,0 +1,43 @@
+*{
+  background-color: #18181b;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.border{
+height: 450px;
+  width: 300px;
+  
+  border: 1px solid white;
+  border-radius: 20px;
+
+  margin: 20px auto;
+}
+
+
+
+
+button{
+  width: 250px;
+  height: 50px;
+
+  background-color: black;
+
+  border: 1px solid white ;
+  border-radius: 50px;
+}
+
+
+button:hover{
+  transform: scale(1.1);
+  
+}
+
+
+.header{
+  text-shadow: 2px 2px 2px blue;
+}
